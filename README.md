@@ -1,5 +1,6 @@
 # taslife api
 ## Endpoint - https://povertay.com.ua/api/taslife/create
+## TEST endpoint - https://povertay-test.herokuapp.com/api/taslife/create
 >**Method** - POST
 
 >**Request params type** - JSON
