@@ -7,7 +7,7 @@
 
 >**Body encription** - AES-256-cbc
 >
-> *Development AES key* - ```doIPlFDFMfwsnJgIchmDxNUyl4pdq1z3IeLflKRtVu8=```
+> *Development AES key* - ```doIPlFDFMfwsnJgIchmDxNUyl4pdq1z3```
 
 >**Parameters:**
 - first_name - имя  ```string(255)```  *(required)*
