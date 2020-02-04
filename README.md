@@ -3,11 +3,13 @@
 ## TEST endpoint - https://povertay-test.herokuapp.com/api/taslife/create
 >**Method** - POST
 
->**Request params type** - JSON
+>**Request params type** - JSON string
 
->**Body encription** - AES-256-cbc
+>**Body data encription** - AES-256-cbc with Initialization vector
 >
-> *Development AES key* - ```doIPlFDFMfwsnJgIchmDxNUyl4pdq1z3```
+> *Development AES key* - ```doIPlFDFMfwsnJgIchmDxNUyl4pdq1z3IeLflKRtVu8=``` - `base64` encoded
+>
+> **Random Initialization Vector (16 bytes)** - append to encrypted data like  `encrypt(data, vector, 'base64') + vector.toString('base64')`
 
 >**Parameters:**
 - first_name - имя  ```string(255)```  *(required)*
